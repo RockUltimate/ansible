@@ -3,6 +3,4 @@
 
   tasks:
     - name: startFarmer
-      shell: ./chia.bin start farmer
-      args:
-        chdir: /home/rockultimate/chia-gigahorse-farmer
+      shell: /home/rockultimate/chia-gigahorse-farmer/chia.bin start farmer
