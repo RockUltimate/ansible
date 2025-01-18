@@ -4,6 +4,6 @@
   become: true
   tasks:
     - name: mount
-      shell: mount.sh
+      shell: ./mount.sh
       args:
         chdir: /scripts
