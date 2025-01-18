@@ -6,4 +6,4 @@
     - name: mount
       ansible.builtin.shell: mount.sh
       args:
-        chdir: /scripts/
+        chdir: scripts/
