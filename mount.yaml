@@ -4,4 +4,4 @@
   become: true
   tasks:
     - name: mount
-      ansible.builtin.script: /scripts/mount.sh
+      script: /scripts/mount.sh
