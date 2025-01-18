@@ -4,4 +4,4 @@
   become: true
   tasks:
     - name: mount
-      script: /scripts/mount.sh
+      shell: /scripts/mount.sh
