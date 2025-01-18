@@ -4,4 +4,6 @@
   become: true
   tasks:
     - name: mount
-      shell: /home/rockultimate/chia-gigahorse-farmer/chia.bin start farmer
+      shell: ./chia.bin start farmer
+      args:
+        chdir: /home/rockultimate/chia-gigahorse-farmer
